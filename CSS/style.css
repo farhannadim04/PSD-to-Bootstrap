@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* -----header---------- */
+.navbar{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+}
+.nav-link{
+     color: #fff;
+     font-size: 14px;
+     font-weight: 300;
+     font-family: 'Montserrat', sans-serif;
+     transition: .4s;
+}
+.nav-link:hover{
+    color: #c7b299
+}
+/* -------------banner-------------- */
+#banner_part{
+    background: url(../Images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banneroverly{
+    background: rgba(17, 17, 17, 0.7);
+    padding: 380px 0;
+}
+.banner_text h3{
+     font-size: 36px;
+     font-weight: 500;
+     font-family: 'Raleway', sans-serif;
+     padding-bottom: 14px;
+}
+.banner_text h1{
+    font-size: 52px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 14px;
+}
+.banner_text p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    padding: 0 19px;
+    padding-top: 25px;
+    padding-bottom: 52px;
+}
+.banner_text a{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    padding: 21px 37px 18px 37px;
+    border-bottom: 3px solid #736357;
+    background: #998675;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* ------------------custom part------------------------ */
+#custom_part{
+    padding: 80px 0;
+}
+.customitem i{
+    font-size: 50px;
+    color: #555;
+    transition: .4s;
+}
+.customitem h3{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: #555;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    transition: .4s;
+}
+.customitem p{
+    position: relative;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    transition: .4s;
+}
+.customitem p::after{
+    position: absolute;
+    height: 3px;
+    width: 70px;
+    background: #c7b299;
+    content: "";
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.customitem:hover i{
+     color: #c7b299;
+}
+.customitem:hover h3{
+    color: #c7b299;
+}
+.customitem:hover p::after{
+    color: #b6884f;
+    width: 100px;
+}
+/* -------------------idea--------------- */
+#ideapart{
+    padding-top: 85px;
+    padding-bottom: 0;
+    background: #fbfaf8;
+}
+.ideatext{
+    text-align: center;
+}
+.ideatext h3{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: #555;
+}
+.ideatext p{
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 28px;
+    padding: 0 260px;
+    margin-top: 24px;
+}
+.ideaimg{
+    margin-top: 40px;
+}
+.ideaimg img{
+    width: 100%;
+}
+/* }--------purcase part------------------------------------ */
+#purchasepart{
+    top: 0;
+    padding: 50px 0;
+    background: linear-gradient(to right, #211b19, #4e3427);
+}
+.purchasetext h3{
+    font-size: 28px;
+     font-weight: 300;
+     font-family: 'Raleway', sans-serif;
+     color: #fff;
+}
+.purchasetext h3 span{
+    color: #c7b299;
+}
+.purchasetext p{
+    font-size: 18px;
+     font-weight: 300;
+     font-family: 'Montserrat', sans-serif;
+     color: #615855;
+     padding-top: 10px;
+}
+.purchasebtn a{
+    padding: 19px 28px 17px 28px;
+    background: #998875;
+    border-bottom: 3px solid #736357;
+    border-radius: 5px;
+    color: #fff;
+    text-transform:uppercase ;
+}
+/* ---------pproject---------------------------- */
+#projectpart{
+    padding-top: 80px;
+}
+.projecttext{
+    padding: 0 300px;
+    text-align: center;
+} 
+.projecttext h3{
+    font-size: 30px;
+     font-weight: 600;
+     font-family: 'Raleway', sans-serif;
+     color: #555;
+     padding-bottom: 20px;
+}
+.projecttext p{
+    font-size: 16px;
+     font-weight: 300;
+     font-family: 'Montserrat', sans-serif;
+     color: #8c8c8c;
+     line-height: 28px;
+}
+
+/* --------------------portfolio----------------- */
+.portfoliobtn{
+    padding-top: 45px;
+    text-align: center;
+}
+.portfoliobtn button{
+    padding: 10px 17px;
+    background: #fff;
+    border-radius: 5px;
+    color: #8c8c8c;
+    border: 1px solid #8c8c8c;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    transition: .4s;
+    margin-right: 10px;
+}
+.portfoliobtn button:hover{
+    color: #fff;
+    background: #998675;
+}
+.portfolioimg img{
+    width: 100%;
+}
+.portfoliotext{
+    padding: 30px;
+    background: #fbfaf8;
+}
+.portfoliotext h3{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    color: #c7b299;
+}
+.portfoliotext p{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    color: #d1d1d1;
+    padding-top: 10px;
+}
+.portfoliotext p:hover{
+    color: #c7b299;
+}
+.portfoliotext h3:hover{
+    color: #d1d1d1;
+}
+.portfolioimg{
+    position: relative;
+}
+.shape{
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    position: absolute;
+    bottom: -15px;
+    left: 30px;
+    transform: rotate(45deg);
+}
+.portfoliooverly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(17, 17, 17, 0.7);
+    opacity: 0;
+    visibility: hidden;
+}
+.portfoliooverly i{
+    position: absolute;
+    font-size: 40px;
+    color: #c7b5a3;
+    top: 50%;
+    left: 30%;
+}
+.overlytwo i {
+    position: absolute;
+    font-size: 40px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+}
+.portfolioitem:hover .portfoliooverly{
+    opacity: 1;
+    visibility: visible;
+}
+.portfolioitem:hover .shape{
+    background: #362f2d;
+}
+.portfolioitem:hover .portfoliotext {
+    background: #362f2d;
+}
+.load{
+    margin-top: 40px;
+    text-align: center;
+}
+.load a{
+    padding: 20px 40px;
+    color: #fff;
+    border-radius: 5px;
+    background: #b6884f;
+}
